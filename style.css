@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 80px;
+}
+
+p {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.main-conteiner {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
